@@ -12,7 +12,7 @@ public class Task2 {
         int m1=num%3600;
         int mn=m1/60;
         int s=m1%60;
-        System.out.printf("Time corresponding to "+num+"seconds is"+h+":"+mn+":"+s+".\n");
+        System.out.printf("Time corresponding to "+num+ "seconds is "+h+":"+mn+":"+s+".\n");
         sc.close();
     }
 }
